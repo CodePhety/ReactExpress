@@ -1,0 +1,22 @@
+{
+  "name": "ReactExpress",
+  "version": "1.0.0",
+  "description": "Boilerplate for express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "build": "cd client && yarn build",
+    "client-install": "cd client && yarn install",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
+  },
+  "repository": "https://github.com/CodePhety/ReactExpress.git",
+  "author": "Yaphet Ghebreyohannes",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0"
+  }
+}

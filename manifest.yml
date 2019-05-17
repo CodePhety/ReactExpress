@@ -1,0 +1,6 @@
+---
+applications:
+- name: ReactExpress
+  command: yarn start
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.6.50
+  memory: 256 MB
